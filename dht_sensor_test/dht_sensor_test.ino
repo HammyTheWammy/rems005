@@ -1,4 +1,4 @@
-#include <DHT.h>
+#include <DHT.h> 
 #define DHTPIN 4
 #define DHTTYPE DHT22
 
@@ -18,7 +18,7 @@ void loop() {
 
     Serial.print("Temp: ");
     Serial.print(temp);
-    Serial.println(" Degrees C");
+    Serial.println(" °C");
     Serial.print("Humidity: ");
     Serial.print(humidity);
     Serial.println(" %");
